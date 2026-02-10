@@ -1,16 +1,13 @@
 # Workout --> GitHub Heatmap Dashboard
 
-Sync Strava activities, normalize and aggregate them, and generate GitHub-style heatmaps per workout type/year. Populates an interactive, free GitHub Pages-hosted dashboard, automatically refreshed daily.
-Generated data is stored on a dedicated `dashboard-data` branch so `main` stays fork-sync friendly.
+Sync Strava activities, normalize and aggregate them, and generate GitHub-style heatmaps per workout type/year. Populates a free interactive GitHub Pages-hosted dashboard, automatically refreshed daily.
 
 - View the Interactive [Activity Dashboard](https://kalchy.github.io/git-sweaty/)
 - Once setup is complete, this dashboard link will automatically update to your own GitHub Pages URL.
 
-<!-- HEATMAPS:START -->
 Preview:
 
 ![Dashboard Preview](site/readme-preview.png)
-<!-- HEATMAPS:END -->
 
 ## Quick Start
 
@@ -25,34 +22,35 @@ This is the fastest path, but it requires a local clone and GitHub CLI (`gh`) au
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
    ```
-3. Create a [Strava API application](https://www.strava.com/settings/api). Set **Authorization Callback Domain** to `localhost`, then copy:
-   - `STRAVA_CLIENT_ID`
-   - `STRAVA_CLIENT_SECRET`
+3. Create a [Strava API application](https://www.strava.com/settings/api).
+   - Set **Website**, for example https://github.com/aspain/git-sweaty
+   - Set **Authorization Callback Domain** to `localhost`, then copy:
+   - The `Client ID` value
+   - The `Client Secret` value
 4. Make sure GitHub CLI is authenticated:
 
    ```bash
    gh auth login
    ```
 
-5. Run:
+5. Run the following, replacing `CLIENT_ID` with the `Client ID` value obtained in step 3 above:
 
    ```bash
-   python3 scripts/setup_auth.py --client-id STRAVA_CLIENT_ID
+   python3 scripts/setup_auth.py --client-id CLIENT_ID
    ```
 
-   When prompted, paste `STRAVA_CLIENT_SECRET` (it is hidden input).
+   When prompted, paste your `Client Secret` obtained from step 3 above (it is hidden input) and press enter.
 
-   The script will:
+   The script will automatically:
    - open Strava OAuth in your browser
    - capture the callback code locally
    - exchange it for a refresh token
-   - set `STRAVA_CLIENT_ID`, `STRAVA_CLIENT_SECRET`, and `STRAVA_REFRESH_TOKEN` via `gh secret set`
+   - set `STRAVA_CLIENT_ID`, `STRAVA_CLIENT_SECRET`, and `STRAVA_REFRESH_TOKEN` as secrets in your repo, via `gh secret set`
 6. Enable GitHub Pages (repo → [Settings → Pages](../../settings/pages)):
    - Under **Build and deployment**, set **Source** to **GitHub Actions**.
 7. Run [Sync Strava Heatmaps](../../actions/workflows/sync.yml):
    - If GitHub shows an **Enable workflows** button in [Actions](../../actions), click it first.
    - Go to [Actions](../../actions) → [Sync Strava Heatmaps](../../actions/workflows/sync.yml) → **Run workflow**.
-   - Keep **Update README dashboard URL in this fork** enabled on your first run so your README link is personalized automatically.
    - The same workflow is also scheduled in `.github/workflows/sync.yml` (daily at `15:00 UTC`).
 8. Open your live site at `https://<your-username>.github.io/<repo-name>/` after deploy finishes.
 
@@ -61,8 +59,8 @@ This is the fastest path, but it requires a local clone and GitHub CLI (`gh`) au
 1. Fork this repo to your account: [Fork this repository](../../fork)
 
 2. Create a [Strava API application](https://www.strava.com/settings/api). Set **Authorization Callback Domain** to `localhost`, then copy:
-   - `STRAVA_CLIENT_ID`
-   - `STRAVA_CLIENT_SECRET`
+   - The `Client ID` value
+   - The `Client Secret` value
 
 3. Generate a **refresh token** via OAuth (the token shown on the Strava API page often does **not** work).
    Open this URL in your browser (replace `CLIENT_ID` with the Client ID value from your Strava API application page):
@@ -80,22 +78,25 @@ This is the fastest path, but it requires a local clone and GitHub CLI (`gh`) au
 
    Copy the value of the `code` query parameter from the failed URL (in this example, `12345`) and exchange it.
    Run this command in a terminal app (macOS/Linux Terminal, or Windows PowerShell/Command Prompt).
-   Use the `CLIENT_ID` and `CLIENT_SECRET` values from your Strava API application page in Step 2.
+   Use the `Client ID` and `Client Secret` values from your Strava API application page in Step 2.
 
    ```bash
    curl -X POST https://www.strava.com/oauth/token \
-     -d client_id=CLIENT_ID \
-     -d client_secret=CLIENT_SECRET \
-     -d code=THE_CODE_FROM_THE_URL \
+     -d client_id=CLIENT_ID_FROM_STEP_2 \
+     -d client_secret=CLIENT_SECRET_FROM_STEP_2 \
+     -d code=CODE_FROM_THE_URL_IN_STEP_3 \
      -d grant_type=authorization_code
    ```
 
-   Copy the `refresh_token` from the response.
+   The response will contain several values. You'll need the `refresh_token`. For example if it shows `..."refresh_token":"ABC123"...`, copy the value `ABC123` for use in the next step.
 
 4. Add GitHub secrets (repo → [Settings → Secrets and variables → Actions](../../settings/secrets/actions)):
-   - `STRAVA_CLIENT_ID`
-   - `STRAVA_CLIENT_SECRET`
-   - `STRAVA_REFRESH_TOKEN` (from the OAuth exchange above)
+   - Secret name: `STRAVA_CLIENT_ID`
+      - Secret value: The `Client ID` value from step 2 above
+   - Secret name: `STRAVA_CLIENT_SECRET`
+      - Secret value: The `Client Secret` value from step 2 above
+   - Secret name: `STRAVA_REFRESH_TOKEN`
+      - Secret value: The `refresh_token` value from the step 3 OAuth exchange above
 
 5. Enable GitHub Pages (repo → [Settings → Pages](../../settings/pages)):
    - Under **Build and deployment**, set **Source** to **GitHub Actions**.
@@ -103,7 +104,6 @@ This is the fastest path, but it requires a local clone and GitHub CLI (`gh`) au
 6. Run [Sync Strava Heatmaps](../../actions/workflows/sync.yml):
    - If GitHub shows an **Enable workflows** button in [Actions](../../actions), click it first.
    - Go to [Actions](../../actions) → [Sync Strava Heatmaps](../../actions/workflows/sync.yml) → **Run workflow**.
-   - Keep **Update README dashboard URL in this fork** enabled on your first run so your README link is personalized automatically.
    - The same workflow is also scheduled in `.github/workflows/sync.yml` (daily at `15:00 UTC`).
 
 7. Open your live site at `https://<your-username>.github.io/<repo-name>/` after deploy finishes.
@@ -120,7 +120,8 @@ Both options run the same workflow, which will:
 ## Fork Sync Best Practice
 
 - To pull in new updates and features from the original repo, use GitHub's **Sync fork** button on your fork's `main` branch.
-- This project is set up to make upstream syncs much less likely to hit merge conflicts from personal dashboard data.
+- Strava activity data is stored on a dedicated `dashboard-data` branch and deployed from there, so generated outputs do not need to be committed on `main`.
+- `main` is intentionally kept free of generated `data/`, `heatmaps/`, and `site/data.json` artifacts so fork sync stays cleaner.
 - After syncing, run [Sync Strava Heatmaps](../../actions/workflows/sync.yml) if you want your dashboard refreshed immediately.
 
 ## Activity Type Note
