@@ -133,10 +133,10 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="42" y="28" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-01-23"><title>2018-01-23
-0 workouts
-Distance: 0.00 km
-Duration: 0m
+<rect x="42" y="28" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-01-23"><title>2018-01-23
+2 workouts
+Distance: 2001.82 km
+Duration: 3h 4m
 Elevation: 0 m</title></rect>
 <rect x="42" y="42" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-01-24"><title>2018-01-24
 0 workouts
@@ -218,21 +218,21 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="70" y="70" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-02-09"><title>2018-02-09
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
-<rect x="70" y="84" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-02-10"><title>2018-02-10
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
-<rect x="84" y="0" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-02-11"><title>2018-02-11
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="70" y="70" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-02-09"><title>2018-02-09
+4 workouts
+Distance: 392.07 km
+Duration: 2h 34m
+Elevation: 11880 m</title></rect>
+<rect x="70" y="84" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-02-10"><title>2018-02-10
+4 workouts
+Distance: 272.07 km
+Duration: 1h 44m
+Elevation: 18620 m</title></rect>
+<rect x="84" y="0" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-02-11"><title>2018-02-11
+2 workouts
+Distance: 86.72 km
+Duration: 38m
+Elevation: 1486 m</title></rect>
 <rect x="84" y="14" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-02-12"><title>2018-02-12
 0 workouts
 Distance: 0.00 km
@@ -393,21 +393,21 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="140" y="70" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-03-16"><title>2018-03-16
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
-<rect x="140" y="84" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-03-17"><title>2018-03-17
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
-<rect x="154" y="0" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-03-18"><title>2018-03-18
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="140" y="70" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-03-16"><title>2018-03-16
+3 workouts
+Distance: 304.63 km
+Duration: 2h 3m
+Elevation: 12705 m</title></rect>
+<rect x="140" y="84" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-03-17"><title>2018-03-17
+1 workout
+Distance: 65.99 km
+Duration: 24m
+Elevation: 926 m</title></rect>
+<rect x="154" y="0" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-03-18"><title>2018-03-18
+2 workouts
+Distance: 280.57 km
+Duration: 2h 18m
+Elevation: 9198 m</title></rect>
 <rect x="154" y="14" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-03-19"><title>2018-03-19
 0 workouts
 Distance: 0.00 km
@@ -543,21 +543,21 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="210" y="0" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-04-15"><title>2018-04-15
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="210" y="0" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-04-15"><title>2018-04-15
+5 workouts
+Distance: 103.41 km
+Duration: 50m
+Elevation: 1316 m</title></rect>
 <rect x="210" y="14" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-04-16"><title>2018-04-16
 0 workouts
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="210" y="28" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-04-17"><title>2018-04-17
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="210" y="28" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-04-17"><title>2018-04-17
+5 workouts
+Distance: 84.81 km
+Duration: 39m
+Elevation: 1187 m</title></rect>
 <rect x="210" y="42" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-04-18"><title>2018-04-18
 0 workouts
 Distance: 0.00 km
@@ -828,11 +828,11 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="322" y="14" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-06-11"><title>2018-06-11
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="322" y="14" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-06-11"><title>2018-06-11
+2 workouts
+Distance: 131.60 km
+Duration: 1h 24m
+Elevation: 3428 m</title></rect>
 <rect x="322" y="28" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-06-12"><title>2018-06-12
 0 workouts
 Distance: 0.00 km
@@ -908,11 +908,11 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="350" y="42" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-06-27"><title>2018-06-27
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="350" y="42" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-06-27"><title>2018-06-27
+2 workouts
+Distance: 194.64 km
+Duration: 1h 8m
+Elevation: 3637 m</title></rect>
 <rect x="350" y="56" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-06-28"><title>2018-06-28
 0 workouts
 Distance: 0.00 km
@@ -1093,16 +1093,16 @@ Elevation: 0 m</title></rect>
 Distance: 0.00 km
 Duration: 0m
 Elevation: 0 m</title></rect>
-<rect x="420" y="70" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-08-03"><title>2018-08-03
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
-<rect x="420" y="84" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-08-04"><title>2018-08-04
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="420" y="70" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-08-03"><title>2018-08-03
+1 workout
+Distance: 150.63 km
+Duration: 1h 4m
+Elevation: 3197 m</title></rect>
+<rect x="420" y="84" width="12" height="12" rx="3" ry="3" fill="#ff8a5b" data-date="2018-08-04"><title>2018-08-04
+2 workouts
+Distance: 163.65 km
+Duration: 1h 0m
+Elevation: 7901 m</title></rect>
 <rect x="434" y="0" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2018-08-05"><title>2018-08-05
 0 workouts
 Distance: 0.00 km
