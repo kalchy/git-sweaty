@@ -16204,6 +16204,41 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-02-26",
+      "hour": 21,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
+    },
+    {
+      "date": "2026-02-28",
+      "hour": 16,
+      "subtype": "VirtualRide",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-02-28",
+      "hour": 16,
+      "subtype": "Ride",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-02-28",
+      "hour": 18,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
+    },
+    {
+      "date": "2026-02-28",
+      "hour": 18,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -34107,6 +34142,16 @@
           "distance": 22203.3,
           "elevation_gain": 119.6,
           "moving_time": 3375.0
+        },
+        "2026-02-28": {
+          "activity_ids": [
+            17558432134,
+            17558447590
+          ],
+          "count": 2,
+          "distance": 95492.70000000001,
+          "elevation_gain": 393.0,
+          "moving_time": 14478.0
         }
       },
       "Run": {
@@ -34300,12 +34345,23 @@
         },
         "2026-02-26": {
           "activity_ids": [
-            17537258908
+            17537258908,
+            17557343628
           ],
-          "count": 1,
-          "distance": 7059.6,
+          "count": 2,
+          "distance": 14588.1,
           "elevation_gain": 0.0,
-          "moving_time": 3658.0
+          "moving_time": 7290.0
+        },
+        "2026-02-28": {
+          "activity_ids": [
+            17558781210,
+            17558794879
+          ],
+          "count": 2,
+          "distance": 4892.700000000001,
+          "elevation_gain": 0.0,
+          "moving_time": 2474.0
         }
       },
       "Swim": {
@@ -34479,7 +34535,7 @@
       }
     }
   },
-  "generated_at": "2026-02-28T15:11:18.927058+00:00",
+  "generated_at": "2026-03-01T15:12:39.005159+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
