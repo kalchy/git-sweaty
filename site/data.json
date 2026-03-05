@@ -16267,6 +16267,13 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-03-04",
+      "hour": 11,
+      "subtype": "VirtualRide",
+      "type": "Ride",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -34180,6 +34187,15 @@
           "distance": 95492.70000000001,
           "elevation_gain": 393.0,
           "moving_time": 14478.0
+        },
+        "2026-03-04": {
+          "activity_ids": [
+            17603155689
+          ],
+          "count": 1,
+          "distance": 26318.7,
+          "elevation_gain": 153.4,
+          "moving_time": 3563.0
         }
       },
       "Run": {
@@ -34583,7 +34599,7 @@
       }
     }
   },
-  "generated_at": "2026-03-04T15:28:46.492303+00:00",
+  "generated_at": "2026-03-05T15:39:21.989384+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
