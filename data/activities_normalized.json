@@ -25969,5 +25969,27 @@
     "start_date_local": "2026-03-23T16:24:29Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-03-24",
+    "distance": 5462.4,
+    "elevation_gain": 85.0,
+    "id": 17846755626,
+    "moving_time": 2891.0,
+    "raw_type": "Run",
+    "start_date_local": "2026-03-24T17:38:24Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-25",
+    "distance": 20877.6,
+    "elevation_gain": 0.0,
+    "id": 17852615302,
+    "moving_time": 3608.0,
+    "raw_type": "Ride",
+    "start_date_local": "2026-03-25T07:22:19Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
