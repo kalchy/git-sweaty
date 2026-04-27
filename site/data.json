@@ -16771,6 +16771,34 @@
       "subtype": "Walk",
       "type": "WalkHike",
       "year": 2026
+    },
+    {
+      "date": "2026-04-26",
+      "hour": 16,
+      "subtype": "Walk",
+      "type": "WalkHike",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-26",
+      "hour": 17,
+      "subtype": "Ride",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-26",
+      "hour": 17,
+      "subtype": "VirtualRide",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-27",
+      "hour": 6,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -34851,6 +34879,16 @@
           "distance": 23168.4,
           "elevation_gain": 133.8,
           "moving_time": 3555.0
+        },
+        "2026-04-26": {
+          "activity_ids": [
+            18272392682,
+            18272435635
+          ],
+          "count": 2,
+          "distance": 49098.5,
+          "elevation_gain": 249.6,
+          "moving_time": 9214.0
         }
       },
       "Run": {
@@ -35388,6 +35426,15 @@
           "distance": 800.0,
           "elevation_gain": 0.0,
           "moving_time": 1295.0
+        },
+        "2026-04-27": {
+          "activity_ids": [
+            18277387938
+          ],
+          "count": 1,
+          "distance": 1900.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2894.0
         }
       },
       "WalkHike": {
@@ -35597,17 +35644,18 @@
         },
         "2026-04-26": {
           "activity_ids": [
-            18266070624
+            18266070624,
+            18271646288
           ],
-          "count": 1,
-          "distance": 4615.9,
-          "elevation_gain": 9.0,
-          "moving_time": 3560.0
+          "count": 2,
+          "distance": 5618.4,
+          "elevation_gain": 15.0,
+          "moving_time": 4431.0
         }
       }
     }
   },
-  "generated_at": "2026-04-26T15:32:33.052310+00:00",
+  "generated_at": "2026-04-27T16:17:26.020155+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
