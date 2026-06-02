@@ -17135,6 +17135,27 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-06-01",
+      "hour": 16,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-01",
+      "hour": 19,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-02",
+      "hour": 8,
+      "subtype": "Ride",
+      "type": "Ride",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -35386,6 +35407,15 @@
           "distance": 57680.4,
           "elevation_gain": 397.0,
           "moving_time": 8803.0
+        },
+        "2026-06-02": {
+          "activity_ids": [
+            18755823562
+          ],
+          "count": 1,
+          "distance": 16515.1,
+          "elevation_gain": 0.0,
+          "moving_time": 3605.0
         }
       },
       "Run": {
@@ -35822,6 +35852,15 @@
           "distance": 2478.9,
           "elevation_gain": 24.0,
           "moving_time": 1168.0
+        },
+        "2026-06-01": {
+          "activity_ids": [
+            18748845986
+          ],
+          "count": 1,
+          "distance": 3729.8,
+          "elevation_gain": 31.0,
+          "moving_time": 1810.0
         }
       },
       "Swim": {
@@ -36060,6 +36099,15 @@
           "distance": 1050.0,
           "elevation_gain": 0.0,
           "moving_time": 1679.0
+        },
+        "2026-06-01": {
+          "activity_ids": [
+            18747766322
+          ],
+          "count": 1,
+          "distance": 1600.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2436.0
         }
       },
       "WalkHike": {
@@ -36343,7 +36391,7 @@
       }
     }
   },
-  "generated_at": "2026-06-01T19:49:23.709551+00:00",
+  "generated_at": "2026-06-02T18:28:47.432019+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
