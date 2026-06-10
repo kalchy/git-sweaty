@@ -27058,5 +27058,38 @@
     "start_date_local": "2026-06-07T17:00:20Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-06-09",
+    "distance": 23486.7,
+    "elevation_gain": 0.0,
+    "id": 18856670770,
+    "moving_time": 3246.0,
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-09T16:32:28Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-09",
+    "distance": 25892.1,
+    "elevation_gain": 98.8,
+    "id": 18856757975,
+    "moving_time": 3292.0,
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-09T16:32:30Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-09",
+    "distance": 1998.2,
+    "elevation_gain": 16.0,
+    "id": 18857005605,
+    "moving_time": 928.0,
+    "raw_type": "Run",
+    "start_date_local": "2026-06-09T17:49:15Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
