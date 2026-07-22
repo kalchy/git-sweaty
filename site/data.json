@@ -17373,6 +17373,13 @@
       "subtype": "Walk",
       "type": "WalkHike",
       "year": 2026
+    },
+    {
+      "date": "2026-07-22",
+      "hour": 10,
+      "subtype": "VirtualRide",
+      "type": "Ride",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -35745,6 +35752,15 @@
           "distance": 21822.7,
           "elevation_gain": 33.2,
           "moving_time": 3022.0
+        },
+        "2026-07-22": {
+          "activity_ids": [
+            19418771213
+          ],
+          "count": 1,
+          "distance": 5785.8,
+          "elevation_gain": 38.2,
+          "moving_time": 978.0
         }
       },
       "Run": {
@@ -36847,7 +36863,7 @@
       }
     }
   },
-  "generated_at": "2026-07-21T16:12:30.488726+00:00",
+  "generated_at": "2026-07-22T16:11:50.859024+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
