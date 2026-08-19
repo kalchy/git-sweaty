@@ -27421,5 +27421,38 @@
     "start_date_local": "2026-08-18T09:32:46Z",
     "type": "WalkHike",
     "year": 2026
+  },
+  {
+    "date": "2026-08-18",
+    "distance": 1000.5,
+    "elevation_gain": 9.0,
+    "id": 19800066895,
+    "moving_time": 1204.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-08-18T16:23:34Z",
+    "type": "WalkHike",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-18",
+    "distance": 21706.4,
+    "elevation_gain": 77.0,
+    "id": 19800534161,
+    "moving_time": 3127.0,
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-18T17:06:20Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-19",
+    "distance": 833.6,
+    "elevation_gain": 6.0,
+    "id": 19808488281,
+    "moving_time": 763.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-08-19T08:30:39Z",
+    "type": "WalkHike",
+    "year": 2026
   }
 ]
