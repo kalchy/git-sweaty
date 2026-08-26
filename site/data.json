@@ -17513,6 +17513,34 @@
       "subtype": "Walk",
       "type": "WalkHike",
       "year": 2026
+    },
+    {
+      "date": "2026-08-25",
+      "hour": 17,
+      "subtype": "Walk",
+      "type": "WalkHike",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-25",
+      "hour": 18,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-26",
+      "hour": 7,
+      "subtype": "VirtualRide",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-26",
+      "hour": 9,
+      "subtype": "Walk",
+      "type": "WalkHike",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -35966,6 +35994,15 @@
           "distance": 21123.3,
           "elevation_gain": 120.2,
           "moving_time": 3016.0
+        },
+        "2026-08-26": {
+          "activity_ids": [
+            19907574838
+          ],
+          "count": 1,
+          "distance": 22098.8,
+          "elevation_gain": 86.8,
+          "moving_time": 3378.0
         }
       },
       "Run": {
@@ -36475,6 +36512,15 @@
           "distance": 3051.8,
           "elevation_gain": 28.0,
           "moving_time": 1682.0
+        },
+        "2026-08-25": {
+          "activity_ids": [
+            19900585640
+          ],
+          "count": 1,
+          "distance": 2505.7,
+          "elevation_gain": 16.0,
+          "moving_time": 1308.0
         }
       },
       "Swim": {
@@ -37147,11 +37193,29 @@
           "distance": 1823.8,
           "elevation_gain": 18.0,
           "moving_time": 1524.0
+        },
+        "2026-08-25": {
+          "activity_ids": [
+            19899668246
+          ],
+          "count": 1,
+          "distance": 2135.8,
+          "elevation_gain": 16.0,
+          "moving_time": 1701.0
+        },
+        "2026-08-26": {
+          "activity_ids": [
+            19908489499
+          ],
+          "count": 1,
+          "distance": 1363.4,
+          "elevation_gain": 10.0,
+          "moving_time": 1192.0
         }
       }
     }
   },
-  "generated_at": "2026-08-25T15:31:11.175183+00:00",
+  "generated_at": "2026-08-26T16:07:29.857321+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
