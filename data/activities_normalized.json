@@ -27762,5 +27762,16 @@
     "start_date_local": "2026-09-05T08:13:53Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-09-05",
+    "distance": 1715.3,
+    "elevation_gain": 6.0,
+    "id": 20051347521,
+    "moving_time": 1958.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-09-05T14:03:10Z",
+    "type": "WalkHike",
+    "year": 2026
   }
 ]
