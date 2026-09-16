@@ -28059,5 +28059,49 @@
     "start_date_local": "2026-09-15T10:11:33Z",
     "type": "WalkHike",
     "year": 2026
+  },
+  {
+    "date": "2026-09-15",
+    "distance": 1000.3,
+    "elevation_gain": 8.0,
+    "id": 20191901166,
+    "moving_time": 1128.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-09-15T17:20:06Z",
+    "type": "WalkHike",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-15",
+    "distance": 3840.0,
+    "elevation_gain": 0.0,
+    "id": 20193566343,
+    "moving_time": 2109.0,
+    "raw_type": "Run",
+    "start_date_local": "2026-09-15T19:50:10Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-15",
+    "distance": 4171.0,
+    "elevation_gain": 0.0,
+    "id": 20193616711,
+    "moving_time": 2088.0,
+    "raw_type": "Run",
+    "start_date_local": "2026-09-15T19:49:59Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-16",
+    "distance": 2680.8,
+    "elevation_gain": 18.0,
+    "id": 20199872133,
+    "moving_time": 2133.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-09-16T08:47:49Z",
+    "type": "WalkHike",
+    "year": 2026
   }
 ]
