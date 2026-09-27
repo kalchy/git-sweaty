@@ -28400,5 +28400,16 @@
     "start_date_local": "2026-09-26T13:05:12Z",
     "type": "MindBody",
     "year": 2026
+  },
+  {
+    "date": "2026-09-26",
+    "distance": 23703.0,
+    "elevation_gain": 245.0,
+    "id": 20343926155,
+    "moving_time": 4620.0,
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-26T18:52:44Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
