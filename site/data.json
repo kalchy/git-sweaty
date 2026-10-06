@@ -18199,6 +18199,34 @@
       "subtype": "Walk",
       "type": "WalkHike",
       "year": 2026
+    },
+    {
+      "date": "2026-10-05",
+      "hour": 19,
+      "subtype": "Ride",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-05",
+      "hour": 19,
+      "subtype": "VirtualRide",
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 8,
+      "subtype": "Walk",
+      "type": "WalkHike",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 13,
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -36854,6 +36882,16 @@
           "distance": 38098.2,
           "elevation_gain": 231.0,
           "moving_time": 5756.0
+        },
+        "2026-10-05": {
+          "activity_ids": [
+            20467396656,
+            20467406422
+          ],
+          "count": 2,
+          "distance": 20216.4,
+          "elevation_gain": 199.0,
+          "moving_time": 4617.0
         }
       },
       "Run": {
@@ -38505,6 +38543,15 @@
           "distance": 2594.8,
           "elevation_gain": 32.0,
           "moving_time": 2230.0
+        },
+        "2026-10-06": {
+          "activity_ids": [
+            20473984708
+          ],
+          "count": 1,
+          "distance": 2458.7,
+          "elevation_gain": 20.0,
+          "moving_time": 1916.0
         }
       },
       "WeightTraining": {
@@ -38543,11 +38590,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1962.0
+        },
+        "2026-10-06": {
+          "activity_ids": [
+            20478556287
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1574.0
         }
       }
     }
   },
-  "generated_at": "2026-10-05T21:42:25.716557+00:00",
+  "generated_at": "2026-10-06T19:53:17.785665+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
