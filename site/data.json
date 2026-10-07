@@ -18227,6 +18227,20 @@
       "subtype": "WeightTraining",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 15,
+      "subtype": "Walk",
+      "type": "WalkHike",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 18,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -37539,6 +37553,15 @@
           "distance": 4665.6,
           "elevation_gain": 32.0,
           "moving_time": 2371.0
+        },
+        "2026-10-06": {
+          "activity_ids": [
+            20481239854
+          ],
+          "count": 1,
+          "distance": 3406.4,
+          "elevation_gain": 5.0,
+          "moving_time": 1825.0
         }
       },
       "Swim": {
@@ -38546,12 +38569,13 @@
         },
         "2026-10-06": {
           "activity_ids": [
-            20473984708
+            20473984708,
+            20479946086
           ],
-          "count": 1,
-          "distance": 2458.7,
-          "elevation_gain": 20.0,
-          "moving_time": 1916.0
+          "count": 2,
+          "distance": 3459.2999999999997,
+          "elevation_gain": 26.0,
+          "moving_time": 3018.0
         }
       },
       "WeightTraining": {
@@ -38603,7 +38627,7 @@
       }
     }
   },
-  "generated_at": "2026-10-06T19:53:17.785665+00:00",
+  "generated_at": "2026-10-07T20:15:36.334734+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
