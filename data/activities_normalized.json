@@ -28840,5 +28840,27 @@
     "start_date_local": "2026-10-12T17:46:12Z",
     "type": "WalkHike",
     "year": 2026
+  },
+  {
+    "date": "2026-10-12",
+    "distance": 13991.4,
+    "elevation_gain": 282.0,
+    "id": 20561510872,
+    "moving_time": 3618.0,
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-12T19:26:29Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-13",
+    "distance": 1805.1,
+    "elevation_gain": 16.0,
+    "id": 20569165928,
+    "moving_time": 1502.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-13T11:02:51Z",
+    "type": "WalkHike",
+    "year": 2026
   }
 ]
