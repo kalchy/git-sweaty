@@ -28972,5 +28972,49 @@
     "start_date_local": "2026-10-18T09:38:16Z",
     "type": "WalkHike",
     "year": 2026
+  },
+  {
+    "date": "2026-10-18",
+    "distance": 699.4,
+    "elevation_gain": 6.0,
+    "id": 20640391554,
+    "moving_time": 598.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-18T16:13:53Z",
+    "type": "WalkHike",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-18",
+    "distance": 4985.9,
+    "elevation_gain": 40.0,
+    "id": 20640999912,
+    "moving_time": 2613.0,
+    "raw_type": "Run",
+    "start_date_local": "2026-10-18T17:28:18Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-19",
+    "distance": 1830.5,
+    "elevation_gain": 15.0,
+    "id": 20647062592,
+    "moving_time": 1482.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-19T08:54:12Z",
+    "type": "WalkHike",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-19",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": 20647569978,
+    "moving_time": 2532.0,
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-10-19T09:26:39Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
