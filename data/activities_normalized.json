@@ -29236,5 +29236,27 @@
     "start_date_local": "2026-10-26T18:50:32Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-10-27",
+    "distance": 722.9,
+    "elevation_gain": 9.0,
+    "id": 20757119429,
+    "moving_time": 685.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-27T17:29:52Z",
+    "type": "WalkHike",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-28",
+    "distance": 13378.1,
+    "elevation_gain": 162.0,
+    "id": 20764097823,
+    "moving_time": 2280.0,
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-28T07:36:41Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
