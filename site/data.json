@@ -18640,6 +18640,13 @@
       "subtype": "WeightTraining",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-10-30",
+      "hour": 7,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -38433,6 +38440,15 @@
           "distance": 1600.0,
           "elevation_gain": 0.0,
           "moving_time": 2380.0
+        },
+        "2026-10-30": {
+          "activity_ids": [
+            20790105069
+          ],
+          "count": 1,
+          "distance": 1500.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2413.0
         }
       },
       "WalkHike": {
@@ -39451,7 +39467,7 @@
       }
     }
   },
-  "generated_at": "2026-10-29T19:55:43.667804+00:00",
+  "generated_at": "2026-10-30T19:45:54.607510+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
