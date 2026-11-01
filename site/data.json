@@ -18654,6 +18654,20 @@
       "subtype": "VirtualRide",
       "type": "Ride",
       "year": 2026
+    },
+    {
+      "date": "2026-10-31",
+      "hour": 15,
+      "subtype": "Walk",
+      "type": "WalkHike",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-31",
+      "hour": 17,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -38137,6 +38151,15 @@
           "distance": 6030.9,
           "elevation_gain": 47.0,
           "moving_time": 3051.0
+        },
+        "2026-10-31": {
+          "activity_ids": [
+            20809657274
+          ],
+          "count": 1,
+          "distance": 4052.8,
+          "elevation_gain": 29.0,
+          "moving_time": 1935.0
         }
       },
       "Swim": {
@@ -39396,6 +39419,15 @@
           "distance": 2393.1,
           "elevation_gain": 11.0,
           "moving_time": 1982.0
+        },
+        "2026-10-31": {
+          "activity_ids": [
+            20808826905
+          ],
+          "count": 1,
+          "distance": 985.3,
+          "elevation_gain": 6.0,
+          "moving_time": 869.0
         }
       },
       "WeightTraining": {
@@ -39483,7 +39515,7 @@
       }
     }
   },
-  "generated_at": "2026-10-31T18:53:49.266538+00:00",
+  "generated_at": "2026-11-01T19:15:28.433327+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
