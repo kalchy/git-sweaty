@@ -29335,5 +29335,27 @@
     "start_date_local": "2026-10-31T17:19:43Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-11-01",
+    "distance": 1766.7,
+    "elevation_gain": 9.0,
+    "id": 20823071052,
+    "moving_time": 1618.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-11-01T16:28:33Z",
+    "type": "WalkHike",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-02",
+    "distance": 1646.8,
+    "elevation_gain": 17.0,
+    "id": 20829740446,
+    "moving_time": 1389.0,
+    "raw_type": "Walk",
+    "start_date_local": "2026-11-02T08:55:47Z",
+    "type": "WalkHike",
+    "year": 2026
   }
 ]
