@@ -18731,6 +18731,13 @@
       "subtype": "Walk",
       "type": "WalkHike",
       "year": 2026
+    },
+    {
+      "date": "2026-11-06",
+      "hour": 16,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -38579,6 +38586,15 @@
           "distance": 1500.0,
           "elevation_gain": 0.0,
           "moving_time": 2413.0
+        },
+        "2026-11-06": {
+          "activity_ids": [
+            20887349756
+          ],
+          "count": 1,
+          "distance": 1350.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2161.0
         }
       },
       "WalkHike": {
@@ -39651,7 +39667,7 @@
       }
     }
   },
-  "generated_at": "2026-11-06T20:38:38.513880+00:00",
+  "generated_at": "2026-11-07T19:07:37.362070+00:00",
   "other_bucket": "OtherSports",
   "type_meta": {
     "GymCardio": {
